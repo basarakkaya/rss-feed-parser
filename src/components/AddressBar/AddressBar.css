@@ -1,0 +1,77 @@
+.addressbar-container {
+  height: 64px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 5px 0px;
+  display: flex;
+  align-content: space-around;
+  z-index: 2;
+}
+
+.addressbar-input {
+  flex-grow: 2;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.addressbar-submit {
+  flex-grow: 1;
+}
+
+.addressbar-submit:hover {
+  box-shadow: #c1c1c1 2px 2px 4px;
+}
+
+.addressbar-submit:focus {
+  outline: none !important;
+}
+
+.addressbar-submit:active {
+  box-shadow: inset #c1c1c1 2px 2px 2px;
+}
+
+.addressbar-input,
+.addressbar-submit {
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.addressbar-error {
+  position: absolute;
+  top: 60px;
+  left: 16px;
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 8px;
+  max-width: 75%;
+  padding: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: #bb0000 0px 4px 6px 0px;
+}
+
+.addressbar-error::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  border-bottom: 10px solid #fbfbfb;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.addressbar-error-header {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.addressbar-error-description {
+  font-family: inherit;
+  font-size: 14px;
+}

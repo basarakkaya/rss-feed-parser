@@ -11,7 +11,7 @@ Array.prototype.myfilter = function (callback) {
   let newArr = [];
 
   for (var i = 0; i < this.length; i++) {
-    if (callback(this[i])) {
+    if (callback(this[i], i)) {
       newArr.push(this[i]);
     }
   }

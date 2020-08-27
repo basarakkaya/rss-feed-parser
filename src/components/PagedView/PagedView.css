@@ -1,0 +1,25 @@
+.paged-container {
+  max-width: 968px;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+
+.paged-selector {
+  margin: 16px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  min-width: 150px;
+  outline: none !important;
+  font-family: inherit;
+}
+
+.paged-title {
+  font-size: 24px;
+}
+
+.paged-description {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+}

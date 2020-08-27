@@ -1,0 +1,26 @@
+.item-container {
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px 0px;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 4px 0px;
+  transition: all ease-in-out 0.2s;
+}
+
+.item-container:hover {
+  transform: scale(1.01);
+}
+
+.item-link {
+  text-decoration: none;
+}
+
+.item-title {
+  font-size: 20px;
+  color: black;
+}
+
+.item-creator {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.75);
+}
